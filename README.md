@@ -29,3 +29,7 @@ or If you have UEFI system
 ```
 sudo grub-mkconfig -o /boot/efi/EFI/debian/grub.cfg
 ```
+
+## Changing Background :
+* If you want to change the background, there is 2 images in Backgrond dir just copy and rename it to `background` in  `/boot/grub/themes/Vimix` dir or just edit theme.txt
+* If you want to use diff, then I cannot sure wheater it'll work or not, for max chances to work, export images through inkscape or GIMP
