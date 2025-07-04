@@ -10,7 +10,15 @@ git clone https://github.com/Ayu-0/grub-vimix-theme.git && cd grub-vimix-theme
 sudo cp -r Vimix  /boot/grub/themes/
 ```
 > [!IMPORTANT]
-> This installation is for 1080p, if you have diff resolution, then go to vimix2k or vimix4k dir there is install script for them, still want to do manually then just go to 2k or 4k vimix folders, then run this cmd
+> This installation is for 1080p, if you have diff resolution, then run this cmd
+- For 2k Resolution :
+```
+sudo cp Configs/2k/theme.txt /boot/grub/themes/Vimix/theme.txt
+```
+- For 4k Resolutions :
+```
+sudo cp Configs/4k/theme.txt /boot/grub/themes/Vimix/theme.txt
+```
 
 * Edit grub config file -
 ```
