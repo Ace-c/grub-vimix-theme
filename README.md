@@ -2,7 +2,7 @@
 
 # Manual Installation :
 
-* Copy theme to grub theme folder, if not `themes` dir not present create it
+* Copy theme to grub theme folder, if `themes` dir not present create it
 ```
 sudo cp -r path-to-theme-folder /boot/grub/themes/
 ```
