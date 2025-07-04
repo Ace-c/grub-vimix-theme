@@ -43,7 +43,7 @@ sudo grub-mkconfig -o /boot/efi/EFI/debian/grub.cfg
 
 
 ## Changing Background :
-* If you want to change the background, two ways to do it :
-* Ok so, there is two images in `Background` dir, just rename it to `background` & replace it in  `/boot/grub/themes/Vimix` dir
-* Second, just edit theme.txt file in /boot/themes/Vimix and change the image file name or full path of the image.
+- If you want to change the background, two ways to do it :
+  - Ok so, there is two images in `Background` dir, just rename it to `background` & replace it in  `/boot/grub/themes/Vimix` dir
+  - Second, just edit theme.txt file in /boot/themes/Vimix and change the image file name or full path of the image.
 * If you want to use diff image, then I'm not sure whether it'll work or not, for max chances to work, export images through ``inkscape or GIMP`` in ``png or jpg`` format
