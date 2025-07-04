@@ -3,7 +3,7 @@
 # Manual Installation :
 1. Clone this repository
 ```
-git clone https://github.com/Ayu-0/grub-vimix-theme.git && cd grub-vimix-theme
+git clone https://github.com/Ace-c/grub-vimix-theme.git && cd grub-vimix-theme
 ```
 2. Copy theme to grub theme folder, if `themes` dir not present create it
 ```
