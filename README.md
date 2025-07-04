@@ -11,11 +11,12 @@ sudo cp -r Vimix  /boot/grub/themes/
 ```
 > [!IMPORTANT]
 > This installation is for 1080p, if you have diff resolution, then run this cmd
-- For 2k Resolution :
+
+> For 2k Resolution :
 ```
 sudo cp Configs/2k/theme.txt /boot/grub/themes/Vimix/theme.txt
 ```
-- For 4k Resolutions :
+> For 4k Resolutions :
 ```
 sudo cp Configs/4k/theme.txt /boot/grub/themes/Vimix/theme.txt
 ```
