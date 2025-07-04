@@ -1,11 +1,11 @@
 ![grub-theme](https://github.com/user-attachments/assets/115946bd-191d-413e-b234-45ca950d1226)
 
 # Manual Installation :
-* Clone this repository
+1. Clone this repository
 ```
 git clone https://github.com/Ayu-0/grub-vimix-theme.git && cd grub-vimix-theme
 ```
-* Copy theme to grub theme folder, if `themes` dir not present create it
+2. Copy theme to grub theme folder, if `themes` dir not present create it
 ```
 sudo cp -r Vimix  /boot/grub/themes/
 ```
@@ -21,15 +21,15 @@ sudo cp Configs/2k/theme.txt /boot/grub/themes/Vimix/theme.txt
 sudo cp Configs/4k/theme.txt /boot/grub/themes/Vimix/theme.txt
 ```
 &nbsp;
-* Edit grub config file -
+3. Edit grub config file -
 ```
 sudo nano /etc/default/grub
 ```
-* Add this line, Give full path of your ``theme.txt`` file
+4. Add this line, Give full path of your ``theme.txt`` file
 ```
 GRUB_THEME="/boot/grub/themes/Vimix/theme.txt"
 ```
-* Update grub configuration, just run -
+5. Update grub configuration, just run -
 ```
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
