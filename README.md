@@ -41,7 +41,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 ## Changing Background :
 - If you want to change the background, two ways to do it :
-  - Either, use images from Background dir & just rename it to `background`
+  - Either, use images from Background dir & just rename it to `background` & place it in theme dir.
   - Or, just edit theme.txt file in `/boot/themes/Vimix` and change image file name or full path of the image.
     
 > [!WARNING]
