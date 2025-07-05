@@ -9,7 +9,7 @@ git clone https://github.com/Ace-c/grub-vimix-theme.git && cd grub-vimix-theme
 ```
 sudo cp -r Vimix  /boot/grub/themes/
 ```
-> [!IMPORTANT]
+> [!NOTE]
 > This installation is for 1080p, if you have diff resolution, then run this cmd
 
 > For 2k Resolution :
