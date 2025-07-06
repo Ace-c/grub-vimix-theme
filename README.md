@@ -40,7 +40,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
   
 > [!WARNING]
-> Changing background may work or may not be, Theme may break, to revert just fallback to original one. Or, If you follow these guidelines, there is very high chances it'l work 
+> Changing background may work or may not be, Theme may break, to revert just fallback to original one. Or, If you follow these guidelines, there is very high chances it'll work 
 >  * As long as you use the same file name `background.jpg` and `resolution`, it'll work for all jpg pictures
 >  * Still not working then, `Rotate The Image` using this cmd `convert -auto-orient background.jpg background.jpg` 
 
