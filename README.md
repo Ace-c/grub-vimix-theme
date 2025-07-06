@@ -38,11 +38,6 @@ GRUB_THEME="/boot/grub/themes/Vimix/theme.txt"
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-
-## Changing Background :
-- If you want to change the background, two ways to do it :
-  - Either, use images from Background dir & just rename it to `background` & place it in theme dir.
-  - Or, just edit theme.txt file in `/boot/themes/Vimix` and change image file name or full path of the image.
-    
+  
 > [!WARNING]
-> If you want to use diff image, then I'm not sure whether it'll work or not, for max chances to work, export images through ``inkscape or GIMP`` in ``png or jpg`` format
+> Changing background may work or may not be
