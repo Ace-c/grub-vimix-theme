@@ -40,4 +40,4 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
   
 > [!WARNING]
-> Changing background may work or may not be
+> Changing background may work or may not be. Theme could break, to revert just fallback to original one
